@@ -4,9 +4,9 @@ public class Jogador {
 
     String nome;
     int idade;
-    String cpf;
+    long cpf;
 
-    public Jogador(String nome, int idade, String cpf) {
+    public Jogador(String nome, int idade, long cpf) {
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
@@ -28,11 +28,11 @@ public class Jogador {
         this.idade = idade;
     }
 
-    public String getCpf() {
+    public long getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(long cpf) {
         this.cpf = cpf;
     }
 
